@@ -1,6 +1,5 @@
 {
-  "name": "shadcn-generic-components",
-  "private": true,
+  "name": "@jmau949/shadcn-generic-components",
   "version": "0.0.0",
   "type": "module",
   "main": "dist/shadcn-components.umd.js",
@@ -17,7 +16,8 @@
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
     "lucide-react": "^0.477.0",
-    "tailwind-merge": "^3.0.2"
+    "tailwind-merge": "^3.0.2",
+    "tailwindcss-animate": "^1.0.7"
   },
   "peerDependencies": {
     "react": "^16.8 || ^17.0 || ^18.0 || ^19.0",
@@ -36,5 +36,8 @@
     "typescript": "~5.7.2",
     "typescript-eslint": "^8.24.1",
     "vite": "^6.2.0"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
